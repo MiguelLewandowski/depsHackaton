@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row m-5">
-            <div class="col-md-8">
+    <div class="container-fluid d-flex">
+        <div class=" m-5 flex-column col-md-7">
+            <div class="col-md-6">
                 <form class="form-inline">
                     <div class="d-flex w-100"> <!-- Adicionando d-flex e w-100 para ocupar toda a largura -->
                         <input type="text" class="form-control form-control-lg flex-grow-1 mr-2" placeholder="Buscar cidade"> <!-- Usando form-control-lg para aumentar a altura -->
@@ -23,36 +23,42 @@
                     </div>
                 </form>
             </div>
-            <button class="search-button"><i class="fas fa-search"></i></button>
-            <button class="donate-button">Doar</button>
-        </div>
+            
         
         
-        
-            <div class="col-md-5">
-                <div class="d-flex flex-column m-5">
-                    <div class="card mt-1">
+            <div class="col-md-8">
+                <div class="d-flex flex-column mt-5">
+                    <div class="card">
                         <h4>Cidade 1</h4>
                         <p>Necessidades: 5</p>
                     </div>
-                    <div class="card mt-1">
+                    <div class="card">
                         <h4>Cidade 1</h4>
                         <p>Necessidades: 7</p>
                     </div>
-                    <div class="card mt-1">
+                    <div class="card">
                         <h4>Cidade 3</h4>
                         <p>Necessidades: 3</p>
                     </div>
-                    <div class="card mt-1">
+                    <div class="card">
                         <h4>Cidade 4</h4>
                         <p>Necessidades: 9</p>
                     </div>
-                    <div class="card mt-1">
+                    <div class="card">
                         <h4>Cidade 5</h4>
                         <p>Necessidades: 2</p>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="mt-5 flex-column col-md-4">
+            <button class="btn btn-success btn-lg">
+                <i class="fas fa-dollar-sign"></i> Doe agora mesmo!
+            </button>
+            <button class="btn btn-info btn-lg">
+                <i class="fas fa-question-circle"></i> Com problemas? Entre em contato!
+            </button>
+        </div>
         
     </div>
 </body>
