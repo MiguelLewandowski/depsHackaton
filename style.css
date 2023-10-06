@@ -6,6 +6,8 @@
 
 body{
     background-image: url(rio2.avif);
+    border-radius: 16px;
+    height: 100%;
 }
 
 .donate-button {
@@ -27,9 +29,7 @@ body{
     padding: 10px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
-
     background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);
@@ -51,9 +51,7 @@ body{
     left: 0;
     height: 8%;
     width: 100%;
-
     background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(13.5px);
     -webkit-backdrop-filter: blur(13.5px);
@@ -124,21 +122,4 @@ body{
     background: #2ebd94;
     top: -7px;
     transition: all 0.2s ease-out;
-  }
-  .header .menu-btn {
-    display: none;
-  }
-  .header .menu-btn:checked ~ .menu {
-    max-height: 600px;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon {
-    background: transparent;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon::before {
-    transform: rotate(-45deg);
-    top: 0;
-  }
-  .header .menu-btn:checked ~ .menu-icon .nav-icon::after {
-    transform: rotate(45deg);
-    top: 0;
   }
