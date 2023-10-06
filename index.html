@@ -12,37 +12,48 @@
 
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 search-bar">
-                <input type="text" class="search-input" placeholder="Pesquisar">
-                <button class="search-button"><i class="fas fa-search"></i></button>
-                <button class="donate-button">Doar</button>
-            </div>
+        <div class="row m-5">
             <div class="col-md-8">
-                <div class="container">
-                    <div class="card">
+                <form class="form-inline">
+                    <div class="d-flex w-100"> <!-- Adicionando d-flex e w-100 para ocupar toda a largura -->
+                        <input type="text" class="form-control form-control-lg flex-grow-1 mr-2" placeholder="Buscar cidade"> <!-- Usando form-control-lg para aumentar a altura -->
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa fa-search"></i> <!-- Ícone de lupa do FontAwesome -->
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <button class="search-button"><i class="fas fa-search"></i></button>
+            <button class="donate-button">Doar</button>
+        </div>
+        
+        
+        
+            <div class="col-md-5">
+                <div class="d-flex flex-column m-5">
+                    <div class="card mt-1">
                         <h4>Cidade 1</h4>
                         <p>Necessidades: 5</p>
                     </div>
-                    <div class="card">
-                        <h4>Cidade 2</h4>
+                    <div class="card mt-1">
+                        <h4>Cidade 1</h4>
                         <p>Necessidades: 7</p>
                     </div>
-                    <div class="card">
+                    <div class="card mt-1">
                         <h4>Cidade 3</h4>
                         <p>Necessidades: 3</p>
                     </div>
-                    <div class="card">
+                    <div class="card mt-1">
                         <h4>Cidade 4</h4>
                         <p>Necessidades: 9</p>
                     </div>
-                    <div class="card">
+                    <div class="card mt-1">
                         <h4>Cidade 5</h4>
                         <p>Necessidades: 2</p>
                     </div>
                 </div>
             </div>
-        </div>
+        
     </div>
 </body>
 
