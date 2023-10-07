@@ -1,6 +1,6 @@
 // Substitua 'SUA_API_KEY' pela sua chave de API da Weatherstack
 const apiKey = 'c12a27f4b7e89d114eecb44d1880c197';
-const cidade = 'Rio de janeiro';
+const cidade = 'Charqueadas';
 
 // URL da API da Weatherstack para a previsão do tempo atual
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${apiKey}`;
