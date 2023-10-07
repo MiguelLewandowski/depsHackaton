@@ -1,21 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
 
 body {
-  background-image: url(rio2.avif);
-  border-radius: 16px;
-  height: 100%;
-}
-
-.donate-button {
-  background-color: #28a745;
-  border: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
+  background-color: #235423;
 }
 
 .container {
