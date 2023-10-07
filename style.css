@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.iconPerfil{
+  width: 50px;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
