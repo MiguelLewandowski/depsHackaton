@@ -131,3 +131,7 @@ body {
   margin-left: 10px;
   width: 50px;
 }
+
+.warning{
+  color: #ff6400;
+}
