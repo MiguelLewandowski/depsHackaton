@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-.iconPerfil{
+.iconPerfil {
   width: 50px;
 }
 
-.previsao{
+.previsao {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -125,4 +125,9 @@ body {
   background: #2ebd94;
   top: -7px;
   transition: all 0.2s ease-out;
+}
+
+.iconPerfil {
+  margin-left: 10px;
+  width: 50px;
 }
