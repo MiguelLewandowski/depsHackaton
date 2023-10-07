@@ -1,124 +1,119 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-body{
-    background-image: url(rio2.avif);
-    border-radius: 16px;
-    height: 100%;
+body {
+  background-image: url(rio2.avif);
+  border-radius: 16px;
+  height: 100%;
 }
 
 .donate-button {
-    background-color: #28a745;
-    border: none;
-    padding: 10px;
-    color: white;
-    cursor: pointer;
+  background-color: #28a745;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .card2 {
-    margin-bottom: 5px;
-    padding: 10px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    background: rgba(255, 255, 255, 0.19);
-    backdrop-filter: blur(80.5px);
-    -webkit-backdrop-filter: blur(13.5px);
+  margin-bottom: 5px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  background-color: #fafafa;
+  border-radius: 8px;
 }
 
 .card2:hover {
-    transform: scale(1.1); 
-    cursor: pointer;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .card-transparent {
-    background: transparent;
+  background: transparent;
 }
 
-
 .header {
-    position: fixed;
-    z-index: 111;
-    top: 0;
-    left: 0;
-    height: 8%;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.19);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(13.5px);
-    -webkit-backdrop-filter: blur(13.5px);
-  }
-  .header ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  .logo {
-    font-size: 35px;
-    text-decoration: none;
-    padding: 10px;
-    float: left;
-    display: block;
-    color: #231A32;
-    font-weight: 700;
-  }
-  .header .menu a {
-    padding: 15px 25px;
-    font-size: 20px;
-    display: block;
-    color: #2ebd94;
-    text-decoration: none;
-  }
-  .header .menu {
-    clear: both;
-    max-height: 0;
-    transition: max-height 0.3s ease-out;
-  }
-  .header .menu a {
-    color: #2ebd94;
-  }
-  .header .menu a:hover {
-    background: #2ebd94;
-    color: #fafafa;
-  }
-  .header .menu-icon {
-    position: relative;
-    float: right;
-    padding: 30px 20px;
-    cursor: pointer;
-  }
-  .header .nav-icon {
-    position: relative;
-    display: block;
-    height: 2px;
-    width: 30px;
-    background: #2ebd94;
-  }
-  .header .menu-icon .nav-icon::before {
-    position: absolute;
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: #2ebd94;
-    top: 7px;
-    transition: all 0.2s ease-out;
-  }
-  .header .menu-icon .nav-icon::after {
-    position: absolute;
-    content: '';
-    display: block;
-    height: 100%;
-    width: 100%;
-    background: #2ebd94;
-    top: -7px;
-    transition: all 0.2s ease-out;
-  }
+  position: fixed;
+  z-index: 111;
+  top: 0;
+  left: 0;
+  height: 8%;
+  width: 100%;
+  background-color: #fafafa;
+}
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.logo {
+  font-size: 35px;
+  text-decoration: none;
+  padding: 10px;
+  float: left;
+  display: block;
+  color: #231a32;
+  font-weight: 700;
+}
+.header .menu a {
+  padding: 15px 25px;
+  font-size: 20px;
+  display: block;
+  color: #2ebd94;
+  text-decoration: none;
+}
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+.header .menu a {
+  color: #2ebd94;
+}
+.header .menu a:hover {
+  background: #2ebd94;
+  color: #fafafa;
+}
+.header .menu-icon {
+  position: relative;
+  float: right;
+  padding: 30px 20px;
+  cursor: pointer;
+}
+.header .nav-icon {
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 30px;
+  background: #2ebd94;
+}
+.header .menu-icon .nav-icon::before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #2ebd94;
+  top: 7px;
+  transition: all 0.2s ease-out;
+}
+.header .menu-icon .nav-icon::after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #2ebd94;
+  top: -7px;
+  transition: all 0.2s ease-out;
+}
