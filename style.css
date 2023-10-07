@@ -3,13 +3,8 @@
   padding: 0;
 }
 
-body {
-  min-height: 100vh;
-  background-size: cover;
-  background-image: url(rio3.avif);
-
-  backdrop-filter: blur(13.6px);
-  -webkit-backdrop-filter: blur(13.6px);
+.iconPerfil {
+  width: 50px;
 }
 
 .container {
