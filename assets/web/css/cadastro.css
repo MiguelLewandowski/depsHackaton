@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(rio.avif);
+  background-image: url(rio2.avif);
   background-size: cover;
 }
 
@@ -57,14 +57,14 @@ form {
 
 .btnColor {
   position: absolute;
-  width: 94px;
+  width: 100%;
   height: 100%;
   background: linear-gradient(to right, #008e92, #00a697, #2ebd94);
   border-radius: 30px;
   transition: 0.3s;
 }
 
-input[type='cpf'],
+input[type='email'],
 input[type='password'] {
   border: none;
   margin-top: 40px;

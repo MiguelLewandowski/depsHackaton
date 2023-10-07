@@ -19,7 +19,7 @@
 body {
   min-height: 100vh;
   background-size: cover;
-  background-image: url(rio3.avif);
+  background-image: url(http://www.localhost/acme-manha/assets/web/images/rio3.avif);
 
   backdrop-filter: blur(13.6px);
   -webkit-backdrop-filter: blur(13.6px);
