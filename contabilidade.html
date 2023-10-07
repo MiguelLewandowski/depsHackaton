@@ -73,36 +73,93 @@
         <section>
             <div class="d-flex">
                 <h2>Notícias</h2>
-              <button type="button" class="btn btn-primary ml-auto" data-bs-toggle="modal" data-bs-target="#adicionarNoticia"> Adicionar notícias</button>
+                <button type="button" class="btn btn-primary ml-auto" data-bs-toggle="modal"
+                    data-bs-target="#adicionarNoticia"> Adicionar notícia</button>
             </div>
-         
-
-            <p>Adicionar notícias</p>
+            <hr>
+            <div class="d-flex">
+                <h2>Avisos</h2>
+                <button type="button" class="btn btn-primary ml-auto" data-bs-toggle="modal"
+                    data-bs-target="#adicionarAviso"> Adicionar Avisos</button>
+            </div>
+            <hr>
+            <div class="d-flex">
+                <h2>Pontos de coleta</h2>
+                <button type="button" class="btn btn-primary ml-auto" data-bs-toggle="modal"
+                    data-bs-target="#adicionarPonto"> Adicionar pontos de coleta</button>
+            </div>
 
         </section>
-     
 
-  <div class="modal fade" id="adicionarNoticia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Adicionar notícia</h5>
-        </div>
-        <div class="modal-body">
-            <form>
-                <div class="mb-3">
-                  <label for="descricao" class="form-label">Descrição</label>
-                  <input type="text" class="form-control" id="descricao">
+        <div class="modal fade" id="adicionarNoticia" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Adicionar notícia</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="descricao" class="form-label">Descrição</label>
+                                <input type="text" class="form-control" id="descricao">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="inputGroupFile02">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="input-group mb-3">
-                    <input type="file" class="form-control" id="inputGroupFile02">
-                  </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+        <!-- modal Ponto de Coleta -->
+        <div class="modal fade" id="adicionarPonto" tabindex="-1" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Adicionar Ponto de Coleta</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="descricao" class="form-label">Endereço</label>
+                                <input type="text" class="form-control" id="endereço">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- modal avisos -->
+        <div class="modal fade" id="adicionarAviso" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Adicionar notícia</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="descricao" class="form-label">Descrição</label>
+                                <input type="text" class="form-control" id="descricao">
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="file" class="form-control" id="inputGroupFile02">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 

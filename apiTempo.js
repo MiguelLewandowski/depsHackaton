@@ -16,6 +16,7 @@ async function getWeatherData() {
         console.log(data)
         weatherDiv.innerHTML = `
             <p class="text-light">Temperatura: ${(data.main.temp.toFixed(2) - 273).toFixed(2)}°C</p>
+            <p class="text-light">Sensação térmica: ${(data.main.feels_like.toFixed(2) - 273).toFixed(2)}°C</p>
             <p class="text-light">Condição: ${data.weather[0].description}</p>
         `;
         console.log(data)
