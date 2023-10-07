@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(rio2.avif);
+  background-image: url(rio.avif);
   background-size: cover;
 }
 
@@ -64,7 +64,7 @@ form {
   transition: 0.3s;
 }
 
-input[type='email'],
+input[type='cpf'],
 input[type='password'] {
   border: none;
   margin-top: 40px;
