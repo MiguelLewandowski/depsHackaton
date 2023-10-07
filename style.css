@@ -43,10 +43,10 @@ body {
 }
 .header {
   position: fixed;
-  z-index: 111;
+  z-index: 110;
   top: 0;
   left: 0;
-  height: 8%;
+  height: 10%;
   width: 100%;
   background-color: #fafafa;
 }
@@ -116,4 +116,9 @@ body {
   background: #2ebd94;
   top: -7px;
   transition: all 0.2s ease-out;
+}
+
+.iconPerfil {
+  margin-left: 10px;
+  width: 50px;
 }
