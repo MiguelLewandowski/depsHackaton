@@ -65,7 +65,7 @@ form {
   transition: 0.3s;
 }
 
-input[type='text'],
+input[type='email'],
 input[type='password'] {
   border: none;
   margin-top: 40px;
@@ -76,6 +76,7 @@ input[type='password'] {
 }
 
 button[type='submit'] {
+  margin-bottom: 10px;
   background: #2ebd94;
   color: white;
   border-radius: 30px;
@@ -118,4 +119,8 @@ i {
 
 .iPassword2 {
   top: 190px;
+}
+
+a{
+  text-decoration: none;
 }
